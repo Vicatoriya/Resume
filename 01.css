@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body {
+   background-color: rgba(255, 235, 205, 0.141);
+   font-size: 18px;
+   line-height:1.6em ;
+   font-family:'Itim', cursive,sans-serif;
+}
+
+.container{
+   margin:auto;
+   width: fit-content;
+}
+
+.block {
+   display:inline-block;
+   margin-top: 35px;
+}
+
+h3,h2{
+   margin-top: 15px;
+   margin-bottom: 10px;
+}
+
+img{
+   box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+   border-radius: 27px; 
+   margin-right: 40px; 
+}
+
+header {
+   border-radius: 8px;
+}
+
+.card {
+   word-spacing: 4px;
+   background-color:rgba(238, 180, 3,0.2);
+   font-weight: 400;
+   width: 520px;
+   border-radius: 5px;
+}
+
+.hobby{
+   background-color: rgba(255, 218, 170, 0.695);
+   width: 100%;
+   border-radius: 12px;
+   padding-right: 5px;
+}
+
+.list {
+   margin: 0;
+   padding: 0;
+   font-weight: 400;
+   list-style:circle;
+   margin-left:30px;
+}
+
+.work {
+   background-color: rgb(255, 218, 185);
+   width: 521px;
+   border-radius: 12px;
+   width: 100%;
+}
+
+th {
+   font-weight: 550;
+   font-size: 17px; 
+   text-align: left;
+}
+
+td,th{
+   padding-right: 13px;
+}
+
+th:last-child{
+   padding-right: 0;  
+}
+
+.form-group input, .form-group textarea {
+   font-family: inherit;
+   font-style: italic; 
+   box-sizing: border-box;
+   border: none;
+   background: transparent;
+   width: 100%;
+   border-bottom: 1px solid black;
+   padding: 15px 0 10px;
+}
+
+.form-row .form-group  {
+   display: inline-block;
+   width: calc(50% - 20px);
+}
+
+.form-row .form-group:first-child  {
+   margin-right: 20px;
+}
+
+.form-row{
+   margin-bottom: 10px;
+}
+
+button {
+   cursor: pointer;
+   border: none;
+   border-radius: 11px;
+   width: 100px;
+   height: 30px;
+   font-family:inherit;
+   font-size: 14px;
+   background-color: rgb(232, 199, 173);
+   margin-bottom: 30px;
+   color:darkred;
+}
+
+button:hover {
+   opacity:0.85;
+   color:brown;
+}
+
+a {
+   color:darkred;
+   font-style: italic;
+   font-size:large; 
+   text-decoration: none;
+   padding-bottom: 40px;
+   transition: all .1s;
+}
+
+a:hover {
+   color:brown;
+   font-size:1.25rem;
+}
+
+a:visited {
+   color:rgba(229, 11, 11, 0.786);
+}  
+
+@media (max-width:650px) {
+   .block, .hobby, .work , .networks {
+   display:block ;
+   }
+}
